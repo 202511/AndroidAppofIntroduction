@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#392020"
+    tools:context=".MainActivity7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mappage" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="广东财经大学有两个校区"
+                android:textColor="#03D7C2"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/picture_history_11" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="广州市海珠区仑头路21号"
+                android:textColor="#03D9C4"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                app:srcCompat="@drawable/picture_history_12" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="佛山校区位于三水区云东海街道学海中路1号."
+                android:textColor="#03D7C2"
+                android:textColorHighlight="#03D1BD"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/picture_history_13" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="佛山校区校园导图"
+                android:textColor="@color/teal_200"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                app:srcCompat="@drawable/picture_history_14" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:text="广州校区校园导图"
+                android:textColor="@color/teal_200"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/picture_history_14124122" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
